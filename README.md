@@ -1,11 +1,34 @@
-# Intro to Machine Learning - TensorFlow Project
+# Flower Image Classifier
 
-Project code for Udacity's Intro to Machine Learning with TensorFlow Nanodegree program. In this project, you will first develop code for an image classifier built with TensorFlow, then you will convert it into a command line application.
+This project implements an image classifier for different species of flowers using TensorFlow and TensorFlow Hub. The model is trained on the Oxford 102 Flowers dataset and is capable of predicting the species from an input image. The project includes training, evaluation, and an inference script.
 
-In order to complete this project, you will need to use the GPU enabled workspaces within the classroom.  The files are all available here for your convenience, but running on your local CPU will likely not work well.
+---
 
-You should also only enable the GPU when you need it. If you are not using the GPU, please disable it so you do not run out of time!
+## Project Overview
 
-### Data
+- Trains a neural network using transfer learning (MobileNet v3 via TensorFlow Hub) to classify flower species.
+- Includes Jupyter Notebook for training and experimentation.
+- Provides a command-line tool (`predict.py`) for image inference.
+- Achieves over 70% accuracy on the test set.
 
-The data for this project is quite large - in fact, it is so large you cannot upload it onto Github.  If you would like the data for this project, you will want download it from the workspace in the classroom.  Though actually completing the project is likely not possible on your local unless you have a GPU.  You will be training using 102 different types of flowers, where there ~20 images per flower to train on.  Then you will use your trained classifier to see if you can predict the type for new images of the flowers.
+## Dataset
+
+- [Oxford 102 Flower Dataset](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html)
+- 102 flower categories, split into train, validation, and test sets.
+
+
+
+## Acknowledgments
+
+- [Oxford Flowers 102 Dataset](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html)
+- TensorFlow, TensorFlow Hub, and TensorFlow Datasets
+- Udacity AI Programming with Python and TensorFlow Nanodegree
+
+---
+
+**Author:** Essa Alsharif  
+**Created:** 2024
+
+---
+
+**Feel free to open issues or submit pull requests for suggestions and improvements!**
