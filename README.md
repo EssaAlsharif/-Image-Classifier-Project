@@ -1,4 +1,4 @@
-# Flower Image Classifier
+# Image Classifier Project
 
 This project implements an image classifier for different species of flowers using TensorFlow and TensorFlow Hub. The model is trained on the Oxford 102 Flowers dataset and is capable of predicting the species from an input image. The project includes training, evaluation, and an inference script.
 
